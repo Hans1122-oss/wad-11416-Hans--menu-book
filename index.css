@@ -19,11 +19,63 @@
 .gg{
 	display:flex;
 	flex-direction:column;
-	align-items::center;
-	padding:100px;
+	text-align:center;
 	margin:10px;
-	size:100px;
+	padding:100px;
 }
 
+.gg h1{
+	height:40px;
+	font-weight:bold;
+	text-align:center;
+	}
+	
+.gg h2{
+	font-size:22px;
+	margin:10px;
+	font-weight:normal;
+	color:#666;
+}
+
+.gg p{
+	font-size:14px;
+	margin:5px:
+	color:#999;
+	text-align:center;
+}
+	
+	
+.flex{
+	display:flex;
+	flex-direction:row;
+}
+
+
+.salad{
+	width:257px;
+	height:257px;
+}
+
+.salad h3{
+	text-align:center;
+	weight:400;
+	size:22px;
+	line-height:28px;
+}
+
+.salad p{
+	text-align:center;
+	weight:400;
+	size:14px;
+	line-height:20px;
+	letter-spacing:0.25px;
+}
+
+.salad h4{
+	text-align:right;
+	weight:400;
+	size:22px;
+	line-height:28px;
+}
 	
 
