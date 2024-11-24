@@ -46,14 +46,10 @@
 	
 	
 .flex{
-	display:flex;
+	display: flex;
 	flex-direction:row;
-}
-
-
-.salad{
-	width:257px;
-	height:257px;
+	width: 100%;
+	gap:16px;
 }
 
 .salad h3{
@@ -78,4 +74,157 @@
 	line-height:28px;
 }
 	
+.salad h5{
+	text-align:center;
+	flex: 1;
+	min-width: 250px;
+	max-width: 300px;
+	border: 1px;	
+	border-radius: 8px;
+	flex-direction:row;
+	weight:400;
+	size:14px;
+	line-height:20px;
+	letter-spacing:0.25px;
+}
+	
+.pizza h3{
+	text-align:center;
+	weight:400;
+	size:22px;
+	line-height:28px;
+}
+
+.pizza p{
+	text-align:center;
+	weight:400;
+	size:14px;
+	line-height:20px;
+	letter-spacing:0.25px;
+}
+
+.pizza h4{
+	text-align:center;
+	weight:400;
+	size:22px;
+	line-height:28px;
+}
+
+.pizza h5{
+	text-align:center;
+	flex: 1;
+	min-width: 250px;
+	max-width: 300px;
+	border: 1px;	
+	border-radius: 8px;
+	flex-direction:row;
+	weight:400;
+	size:14px;
+	line-height:20px;
+	letter-spacing:0.25px;
+}
+
+.wine h3{
+	text-align:center;
+	weight:400;
+	size:22px;
+	line-height:28px;
+}
+
+.wine p{
+	text-align:center;
+	weight:400;
+	size:14px;
+	line-height:20px;
+	letter-spacing:0.25px;
+}
+
+.wine h4{
+	text-align:center;
+	weight:400;
+	size:22px;
+	line-height:28px;
+}
+
+.wine h5{
+	text-align:center;
+	flex: 1;
+	min-width: 250px;
+	max-width: 300px;
+	border: 1px;	
+	border-radius: 8px;
+	flex-direction:row;
+	weight:400;
+	size:14px;
+	line-height:20px;
+	letter-spacing:0.25px;
+}	
+
+.cofe h3{
+	text-align:center;
+	weight:400;
+	size:22px;
+	line-height:28px;
+}
+
+.cofe p{
+	text-align:center;
+	weight:400;
+	size:14px;
+	line-height:20px;
+	letter-spacing:0.25px;
+}
+
+.cofe h4{
+	text-align:center;
+	weight:400;
+	size:22px;
+	line-height:28px;
+}
+
+.cofe h5{
+	text-align:center;
+	flex: 1;
+	min-width: 250px;
+	max-width: 300px;
+	border: 1px;	
+	border-radius: 8px;
+	flex-direction:row;
+	weight:400;
+	size:14px;
+	line-height:20px;
+	letter-spacing:0.25px
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.price-sendiri {
+	text-align:right;
+	font-weight: bold;
+	font-size: 22px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+
+
+.menu {
+	flex: 1;
+    display: inline-block;
+    width: 250px;
+    background-color: #ffffff;
+}
+
+
 
